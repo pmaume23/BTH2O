@@ -26,6 +26,9 @@ p {
   color: #8f8f8f;
   text-align: left;
 }
+.container-fluid{
+  background-color: #0779e4;
+}
 
 /* Navbar */
 .navbar {
