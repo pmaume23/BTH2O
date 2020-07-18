@@ -115,6 +115,16 @@ p {
 .info{
   font-weight: bolder;
 }
+
+.social-media{
+  text-align: center;
+}
+
+.social-icon{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .copyright{
   text-align: center;
 }
