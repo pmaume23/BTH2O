@@ -1,61 +1,67 @@
 body {
+  padding-top: 5px;
+}
+
+h1 {
   text-align: center;
+  padding-bottom: 10px;
+
 }
 
 h2 {
   font-family: "Montserrat-Bold";
+  padding-bottom: 10px;
+}
+
+hr {
+  width: 30%;
+  border: 1px solid;
+  border-radius: 2px;
+  width: 20%;
+  font-weight: bolder;
 }
 
 p {
   color: #8f8f8f;
+  text-align: left;
 }
 
-/* Navigation Bar */
+/* Navbar */
 .navbar {
-  padding: 0.7rem 0.2rem 0.7rem;
-  background-color: #eeeeee;
-  overflow: auto;
+  /* position: fixed; */
+  width: auto;
+  float: none;
 }
 
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
+.navbar-nav {
+  margin-left: 600px;
 }
 
 .nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat";
-}
-
-#navbarBar{
-  position: fixed;
-  top: 0;
-  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 .carousel .item>img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 100%;
 }
 
+.pic-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 /* About us */
 .third-container {
-  padding: 20px 50px 20px 50px;
+  padding: 80px 100px 100px 100px;
 }
 
 .about-us {
@@ -63,8 +69,18 @@ p {
   margin: 25px 50px 20px 50px;
 }
 
+.quote{
+  padding: 50px 200px 50px 200px;
+  background-color: #eeeeee;
+  border-style: double;
+}
+
+.cite{
+  padding-left: 500px;
+}
+
 .fourth-container {
-  background-color: #99d8d0;
+  background-color: #3282b8;
   padding: 20px 50px 20px 50px;
 }
 
@@ -74,6 +90,31 @@ p {
   background-color: #99d8d0;
 }
 
+.contact-details{
+  /* display: inline-block; */
+  /* padding: 50px 100px 30px 100px; */
+}
+
+.left-side{
+  padding-left: 200px;
+}
+
+.right-side{
+  padding-right: 200px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.info{
+  font-weight: bolder;
+}
 .copyright{
-  padding: 20px 50px 20px 50px;
+  text-align: center;
 }
